@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>HMART</title>
-     <link rel="stylesheet" href="/Ecommerce-Website/static/style.css">
+     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
      <div class="header">
@@ -18,11 +18,11 @@
                     <a>Update Location</a>
                     <nav>
                          <ul>
-                             <li><a href="#">Home</a></li>
-                             <li><a href="#">Products</a></li>
-                             <li><a href="#">About</a></li>
-                             <li><a href="#">Contact</a></li>
-                             <li><a href="#">Account</a></li>
+                             <li><a href="{% url 'home' %}">Home</a></li>
+                             <li><a href="{% url 'About' %}">About</a></li>
+                             <li><a href="{% url 'Account' %}">Account</a></li>
+                             <li><a href="{% url 'Order' %}">Order</a></li>
+                             <li><a href="{% url 'Card' %}">Card</a></li>
                          </ul>
                      </nav>
                </div>
