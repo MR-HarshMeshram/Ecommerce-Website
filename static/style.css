@@ -38,7 +38,7 @@ a{
      color: #171616;
  }
  p{
-     color: #555;
+     color: #fff#000;
  }
  .container{
      max-width: 1300px;
@@ -46,3 +46,24 @@ a{
      padding-left: 25px;
      padding-right: 25px;
  }
+ .herosection{
+    background-image: url(hero.jpg);
+    height: 300px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.herotext{
+    height: 40px;
+    width: 1460px;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herotext p{
+    font-size: 14px;
+}
