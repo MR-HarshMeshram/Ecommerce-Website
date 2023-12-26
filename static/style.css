@@ -46,15 +46,6 @@ a{
      padding-left: 25px;
      padding-right: 25px;
  }
- .herosection{
-    background-image: url(/Ecommerce-Website/Images/heroimage.jpg);
-    height: 300px;
-    background-size:cover;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-bottom: 20px;
-}
 .slider{
     width: 100%;
     height: 500px;
