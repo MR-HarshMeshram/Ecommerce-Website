@@ -3,12 +3,13 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return render(request,"header.html")
+    return render(request,"index.html")
 def About(request):
-    return HttpResponse("About")
+    return render(request,"About.html")
 def Account(request):
-    return HttpResponse("Account")
+    return render(request,"Account.html")
 def Order(request):
-    return HttpResponse("Order")
+    return render(request,"Order.html")
 def Card(request):
-    return HttpResponse("Card")
+    return render(request,"cart.html")
+    

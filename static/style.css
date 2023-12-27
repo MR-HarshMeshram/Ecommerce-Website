@@ -33,7 +33,6 @@ nav ul li{
           display: inline-block;
           margin-right: 20px;
       }
-
 a{
      text-decoration: none;
      color: #171616;
@@ -58,6 +57,7 @@ a{
     align-items: end;
     padding-bottom: 20px;
 }
+
 .slider{
     background-color: #2e3948;
     margin-left: 40px;
@@ -269,7 +269,7 @@ figure{
     }
      a:hover{
      color: #ff523b;
-     }
+}
     a{
     text-decoration: none;
     color: #fff;
