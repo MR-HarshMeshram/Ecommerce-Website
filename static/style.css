@@ -525,13 +525,4 @@ p{
     margin-top: 8px;
     transform: translate(100px);
    }
-
-   /* About.html */
-   .container{
-    margin: 25px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 300px;
-   }
    
